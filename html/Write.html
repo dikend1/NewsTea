@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Write</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/css/write/write.css">
+    <link rel="stylesheet" href="/css/general/header.css">
+</head>
+<body class="main-container">
+
+<header class="header">
+    <div class="header-left">
+        <button class="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z"></path>
+            </svg>
+        </button>
+        <button class="btn-1">
+            <span class="">NewsTea</span>
+        </button>
+    </div>
+
+    <div class="header-right">
+        <button class="btn btn-green gap-2" type="button" onclick="publish()">
+            <span>Publish</span>
+        </button>
+        <button class="btn btn-transp" type="button">
+            <svg class="svg-icon"
+                 style="width: 1.5em; height: 1.5em; fill: currentColor;"
+                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 22c1.104 0 2-.896 2-2H10c0 1.104.896 2 2 2zm6-6V10c0-3.314-2.686-6-6-6V3a1 1 0 0 0-2 0v1c-3.314 0-6 2.686-6 6v6l-2 2h16l-2-2z"/>
+            </svg>
+        </button>
+        <img src="/base/imgs/IMG_4577.jpg" alt="Profile" class="avatar" />
+    </div>
+</header>
+
+<div class="title-container">
+    <label for="write-title-input">
+        <textarea id="write-title-input" placeholder="Title"></textarea>
+    </label>
+</div>
+
+<div class="maintext-container">
+    <label for="write-text-input">
+        <textarea id="write-text-input" placeholder="Your Story"></textarea>
+    </label>
+</div>
+
+<script src="/base/js/write.js"></script>
+</body>
+</html>
