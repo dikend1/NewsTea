@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-columns: 220px 1fr 280px;
+    gap: 24px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+    
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    top: 90px;
+    transition: transform 0.3s ease;
+}
+.main-left.hidden{
+    transform: translateX(-100%);
+}
