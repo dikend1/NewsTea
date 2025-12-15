@@ -1,11 +1,9 @@
 .container{
-    display: grid;
-    grid-template-columns: 220px 1fr 280px;
+    display: flex;
     gap: 24px;
     max-width: 1400px;
     margin: 0 auto;
     padding: 24px;
-    
 }
 
 .main-left{
@@ -15,6 +13,10 @@
     position: sticky;
     top: 90px;
     transition: transform 0.3s ease;
+    border: 1px;
+    width: 220px;
+    flex-shrink: 0;
+    flex:1;
 }
 .main-left.hidden{
     transform: translateX(-100%);
