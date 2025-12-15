@@ -1,0 +1,8 @@
+.mainbody{
+    display: flex;
+    gap: 24px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 24px;
+    flex:2;
+}
