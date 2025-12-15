@@ -1,0 +1,29 @@
+.main-container {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+body {
+    height: 5000px;
+
+}
+
+#write-title-input {
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 3%;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+#write-text-input {
+    font-size: 1.5em;
+    margin-top: 3%;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+}
