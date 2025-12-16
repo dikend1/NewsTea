@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
-    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
     padding: 24px;
     flex:2;
@@ -17,7 +17,7 @@
 .card-author {
     display: flex;
     flex-direction: row;
-    align-items: center;     /* vertical */
+    align-items: center;
     gap: 1rem;
 }
 
@@ -36,12 +36,32 @@
 }
 
 .card-info {
+    display: flex;
+
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     padding: 16px 0;
 }
 
+.like-comm{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.inside-like-comm {
+    display: flex;
+    gap: 5px;
+}
+
 #small-svg {
     height: 16px;
     width: 16px;
+}
+
+.like-button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
 }
