@@ -31,7 +31,6 @@ function publish() {
             stories[storyIndex].author = author;
         }
     } else {
-        // Create new story
         const newId = title.replaceAll(' ', '_') + '_' + crypto.randomUUID();
         stories.push({ id: newId, title, main: text, date: date, author: author });
     }
@@ -58,23 +57,8 @@ for( let i = 0; i < stories.length; i++ ) {
         break;
     }
 }
-// Find the textareas
 const titleInput = parent.querySelector("#write-title-input");
 const mainInput = parent.querySelector("#write-text-input");
 
-// Set their values to the loaded story
 titleInput.value = story.title;
 mainInput.value = story.main;
-
-
-//  <div class="title-container">
-//         <label for="write-title-input">
-//             <textarea id="write-title-input" placeholder="Title"></textarea>
-//         </label>
-//     </div>
-//
-//     <div class="maintext-container">
-//         <label for="write-text-input">
-//             <textarea id="write-text-input" placeholder="Your Story" rows="10" cols="50"></textarea>
-//         </label>
-//     </div>

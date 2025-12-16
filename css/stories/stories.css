@@ -38,6 +38,7 @@
 
 .stories-card{
     display: flex;
+    width: 100%;
     gap: 16px;
     align-items: center;
     background: #fff;padding: 20px;
@@ -63,4 +64,28 @@
 .stories-meta {
     font-size: 14px;
     color: #888;
+}
+
+.stories-btn {
+    border: none;
+    background: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.stories-btn:hover {
+    background: #000;
+}
+
+#stories-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.story-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    gap: 12px;
 }
