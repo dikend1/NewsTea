@@ -54,10 +54,11 @@ function createLibrary() {
   card.className = "list-card";
 
   card.innerHTML = `
-    <img src="../img/IMG_3290.JPG" class="avatar" />
+    <img src="../img/myself.JPG" class="avatar" />
     <div class="list-info">
       <span class="list-author">Dias Maksatov</span>
       <h2 class="list-title">${title}</h2>
+      <p class="list-description" style="padding-bottom: 5px;">${descInput.value.trim()}</p>
       <span class="list-meta">${month} ${day} · 5 min read</span>
     </div>
   `;
