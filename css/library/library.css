@@ -1,12 +1,15 @@
 .mainbody{
     display: flex;
     justify-content: center;
-    margin-right: 100px;
 }
 
+.main-center {
+    width: 100%;
+}
 
 .library{
-    max-width: 700px;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .library-header{

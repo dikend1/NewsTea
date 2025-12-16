@@ -1,17 +1,18 @@
 .container{
     display: flex;
     max-width: 1400px;
-    padding: 24px;
 }
 
 .main-left{
+    padding: 24px;
+    height: 100vmax;
     display: flex;
     flex-direction: column;
     gap: 20px;
     position: sticky;
     top: 90px;
     transition: transform 0.3s ease;
-    border: 1px;
+    border-right: 1px solid lightgray;
     width: 220px;
 }
 .main-left.hidden{
