@@ -1,4 +1,4 @@
-const menuBtn = document.getElementById("menuToggle");
+  const menuBtn = document.getElementById("menuToggle");
   const sidebar = document.getElementById("sidebar");
   const mainbody = document.getElementById("mainbody");
 
