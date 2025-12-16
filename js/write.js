@@ -1,12 +1,16 @@
-let date = new Date();
-let year = date.getFullYear();
-let month = date.getMonth() + 1;
-let day = date.getDate();
+const months = [
+    "January","February","March","April","May","June",
+    "July","August","September","October","November","December"
+];
+
+const d = new Date();
+const month = months[d.getMonth()];
+const day = d.getDate();
 
 function publish() {
     const title = document.getElementById('write-title-input').value;
     const text = document.getElementById('write-text-input').value;
-    const date = year + "-" + month + "-" + day;
+    const date = month + " " + day;
     const author = "myself";
     if (title === '') {
         alert("Please enter a title");
@@ -37,7 +41,7 @@ function publish() {
 
     localStorage.setItem('stories', JSON.stringify(stories));
 
-    open('main.html');
+    open('main.html', 'main.html');
     close();
 }
 

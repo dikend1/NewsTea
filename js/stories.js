@@ -57,7 +57,7 @@ for (let i = 0; i < stories.length; i++) {
 
 function deleteStory(id){
 
-    stories = stories.filter((story) => story.id === id);
+    stories = stories.filter((story) => story.id !== id);
 
     localStorage.setItem("stories", JSON.stringify(stories));
 
