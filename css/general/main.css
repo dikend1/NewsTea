@@ -1,11 +1,13 @@
 .mainbody{
     display: flex;
     gap: 24px;
+    width: 100%;
     max-width: 1400px;
     margin: 0 auto;
     padding: 24px;
     flex:1;
     transition: transform 0.3s ease;
+    justify-content: center;
 }
 
 .mainbody.hidden{
