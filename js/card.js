@@ -4,6 +4,16 @@ let title = localStorage.getItem("stories")
 parent.querySelector(".news-title").innerText = title;
 
 
+function incrementLike(){
+
+    let likeCount = document.getElementById("like-count");
+    let number = likeCount.innerHTML;
+    number++;
+    likeCount.innerHTML = number;
+    document.getElementById("like-count").id = "like-stop";
+
+}
+
 
 // <article className="news-card">
 //     <h2 className="news-title">
