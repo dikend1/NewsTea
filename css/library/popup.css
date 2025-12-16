@@ -16,6 +16,7 @@
     max-width: 90%;
     background: #fff;
     border-radius: 16px;
+    padding: 40px;
 
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
     z-index: 1000;
@@ -39,6 +40,7 @@
     border-radius: 8px;
     border: 1px solid #ccc;
     outline: none;
+    margin-bottom: 10px;
 }
 
 #popup input[type="text"]:focus {
@@ -80,11 +82,17 @@
 
 #popup-buttons button:first-child {
     background: #fff;
-    border: 1px solid #333;
+    border: none;
+}
+#popup-buttons button:first-child:hover {
+    background: #f0f0f0;
 }
 
 #popup-buttons button:last-child {
     background: #cce6cc;
     border: none;
     color: #fff;
+}
+#popup-buttons button:last-child:hover {
+    background: #1a7f37;
 }
