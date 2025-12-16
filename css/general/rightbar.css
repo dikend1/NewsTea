@@ -1,9 +1,13 @@
+.main-right{
+    width: 320px;
+}
+
 .last-published{
     position: sticky;
     top: 90px;
     background: #fff;
     border-radius: 16px;
-    padding: 20px 40px;
+    padding: 20px;
     border: 1px solid rgba(0,0,0,0.06);
     box-shadow: 0 2px 10px rgba(0,0,0,0.06);
 }

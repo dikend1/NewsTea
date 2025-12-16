@@ -1,11 +1,6 @@
 .main-container {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
-
-}
-
-body {
-    height: 5000px;
 
 }
 
@@ -24,8 +19,10 @@ body {
     margin-top: 3%;
     display: block;
     width: 100%;
+    height: 500px;
     border: none;
     outline: none;
+    resize: vertical;
 }
 
 .btn-green {
@@ -37,4 +34,9 @@ body {
     cursor: pointer;
     width: 6rem;
     height: 2rem;
+}
+
+.main-content{
+    width: 80%;
+    margin: 0 auto;
 }
