@@ -1,0 +1,51 @@
+.last-published{
+    position: sticky;
+    top: 90px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px 40px;
+    border: 1px solid rgba(0,0,0,0.06);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.lp-title{
+    font-size: 16px;
+    font-weight:600;
+    margin-bottom: 16px;;
+}
+
+.lp-item{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    margin-bottom: 16px;
+    align-items: start;
+}
+
+.lp-item img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.lp-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.lp-info strong {
+  font-size: 14px;
+}
+
+.lp-info span {
+  font-size: 13px;
+  color: #666;
+}
+
+.lp-info small {
+  font-size: 12px;
+  color: #999;
+}
