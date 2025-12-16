@@ -7,7 +7,6 @@ const d = new Date();
 const month = months[d.getMonth()];
 const day = d.getDate();
 
-
 const overlay = document.getElementById("overlay");
 const popup = document.getElementById("popup");
 const titleInput = document.getElementById("input-title");
