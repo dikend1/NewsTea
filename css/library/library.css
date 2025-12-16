@@ -1,15 +1,18 @@
 .mainbody{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .main-center {
     width: 100%;
+    max-width: 1400px;
 }
 
 .library{
     width: 100%;
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 .library-header{
