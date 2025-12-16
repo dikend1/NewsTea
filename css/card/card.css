@@ -13,3 +13,35 @@
     font-size: 48px;
     font-weight: bold;
 }
+
+.card-author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;     /* vertical */
+    gap: 1rem;
+}
+
+.card-author #follow-button {
+    background-color: transparent;;
+    border: 1px solid lightgray;
+    border-radius: 2rem;
+    height: 2rem;
+    width: 4rem;
+}
+
+.card-author #follow-button:hover {
+    background-color: dimgray;
+    color: white;
+    border:none;
+}
+
+.card-info {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 16px 0;
+}
+
+#small-svg {
+    height: 16px;
+    width: 16px;
+}
