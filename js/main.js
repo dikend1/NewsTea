@@ -2,7 +2,6 @@ let parent = document.getElementById("main-center");
 
 let stories = JSON.parse(localStorage.getItem("stories"));
 
-
 for (let i = 0; i < stories.length; i++) {
 
     let href = document.createElement("a");
