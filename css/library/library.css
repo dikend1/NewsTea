@@ -72,6 +72,11 @@
     flex-direction: column;
     gap: 4px;
 }
+.list-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 .list-author {
   font-size: 14px;
