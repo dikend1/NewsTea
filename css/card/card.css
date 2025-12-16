@@ -1,11 +1,16 @@
-.mainbody-card{
+.mainbody{
     display: flex;
     flex-direction: column;
     gap: 24px;
     width: 100%;
     margin: 0 auto;
     padding: 24px;
-    flex:2;
+    justify-content: normal;
+    transition: transform 0.3s ease;
+}
+
+.mainbody.hidden{
+    transform: translateX(-5%);
 }
 
 .card-title{
