@@ -63,7 +63,6 @@ function createLibrary() {
     </div>
   `;
 
-  // вставляем новой первой
   librarySection.insertBefore(card, firstCard);
   closeOnClick();
 }
