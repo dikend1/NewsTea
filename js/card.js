@@ -1,4 +1,4 @@
-let parent = document.getElementById("mainbody-card");
+let parent = document.getElementById("mainbody");
 
 let stories = JSON.parse(localStorage.getItem("stories")) || [];
 
