@@ -6,11 +6,13 @@ const months = [
 const d = new Date();
 const month = months[d.getMonth()];
 const day = d.getDate();
+const hours = d.getHours();
+const minutes = d.getMinutes();
 
 function publish() {
     const title = document.getElementById('write-title-input').value;
     const text = document.getElementById('write-text-input').value;
-    const date = month + " " + day;
+    const date = month + " " + day + " " + hours + ":" + minutes;
     const author = "myself";
     if (title === '') {
         alert("Please enter a title");

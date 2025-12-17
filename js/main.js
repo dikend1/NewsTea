@@ -15,6 +15,9 @@ for (let i = 0; i < stories.length; i++) {
 
     let profileImg = document.createElement("img");
     profileImg.src = "../img/myself.JPG";
+    if(stories[i].author !== "myself") {
+            profileImg.src = "../img/pfp.png";
+    }
 
     let profileText = document.createElement("p");
     profileText.innerText = stories[i].author;
