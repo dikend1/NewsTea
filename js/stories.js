@@ -5,7 +5,7 @@ let stories = JSON.parse(localStorage.getItem("stories"));
 let counter =0;
 
 
-for (let i = 0; i < stories.length; i++) {
+for (let i = 0; i < 8; i++) {
     if(stories[i].author !== "myself"){
         continue;
     }
