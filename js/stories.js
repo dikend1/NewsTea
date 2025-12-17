@@ -12,7 +12,9 @@ for (let i = 0; i < stories.length; i++) {
 
     let row = document.createElement("div");
     row.className = "story-row";
-    row.id = stories[i].id;
+    console.log(i, stories[i].id, stories[i]);
+    const storyId = stories[i].id;
+    row.id = storyId;
 
 
     let href = document.createElement("a");
@@ -36,7 +38,7 @@ for (let i = 0; i < stories.length; i++) {
     let btn = document.createElement("button");
     btn.className = "stories-btn";
     btn.innerText = "x";
-    btn.onclick = () => deleteStory(stories[i].id);
+    btn.onclick = () => deleteStory(storyId);
 
 
     info.appendChild(title);
