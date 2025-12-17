@@ -44,7 +44,7 @@ function publish() {
 
 
 let parent = document.getElementById('main-content');
-let stories = JSON.parse(localStorage.getItem("stories")) || [];
+let stories = JSON.parse(localStorage.getItem("stories"));
 
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
