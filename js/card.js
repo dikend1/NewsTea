@@ -1,13 +1,13 @@
-let parent = document.getElementById("mainbody");
+const parent = document.getElementById("mainbody");
 
-let stories = JSON.parse(localStorage.getItem("stories")) || [];
+const stories = JSON.parse(localStorage.getItem("stories"));
 
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
 let story;
 
-
+if(stories && stories.length > 0) {
 for (let i = 0; i < stories.length; i++) {
     if (stories[i].id === id) {
         story = stories[i];
@@ -20,7 +20,7 @@ parent.querySelector(".card-author").innerHTML = `<img src="../img/pfp.png" alt=
                                                             <button id = "follow-button"> Follow </button>`
 parent.querySelector(".card-title").innerText = story.title;
 parent.querySelector(".card-content").innerText = story.main;
-
+}
 
 document.addEventListener("click", function (e) {
     if (e.target.closest(".like-button")) {
