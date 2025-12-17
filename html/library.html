@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/general/footer.css">
     <link rel="stylesheet" href="../css/library/library.css">
     <link rel="stylesheet" href="../css/library/popup.css">
-    <link rel="stylesheet" href="../css/general/rightbar.css">
+    <link rel="stylesheet" href="../css/main/rightbar.css">
     <link rel="stylesheet" href="../css/main/main-center.css">
 </head>
 <body>
@@ -27,12 +27,12 @@
                 <span class="">NewsTea</span>
             </button>
         </div>
-        <div class="header-center">
+        <div class="header-center" id="search-input">
             <input type="text" placeholder="Search" class="search-input"/>
             <button class="search-btn">Search</button>
         </div>
-        <div class="header-right">
-            <a href="../html/Write.html">
+        <div class="header-right" >
+            <a href="../html/Write.html" id="header-right">
                 <button class="btn btn-transp gap-2" type="button">
                     <svg class="svg-icon"
                             style="width: 1.5em; height: 1.5em; fill: currentColor;"
@@ -111,9 +111,9 @@
                     <div class="library-tabs">
                         <button class="lib-tab active">Your Lists</button>
                         <button class="lib-tab">Saved lists</button>
-                        <button class="lib-tab">Highlights</button>
-                        <button class="lib-tab">Reading history</button>
-                        <button class="lib-tab">Responses</button>
+                        <button class="lib-tab mobile-none">Highlights</button>
+                        <button class="lib-tab mobile-none">Reading history</button>
+                        <button class="lib-tab mobile-none">Responses</button>
                     </div>
                 </section>
             </div>
@@ -128,7 +128,7 @@
                     Simple. Clean. Human.
                 </p>
             </div>
-            <div class="footer-socials">
+            <div class="footer-socials" id="footer-socials">
                 <a href="#">Telegram</a>
                 <a href="#">Instagram</a>
                 <a href="#">LinkedIn</a>

@@ -13,3 +13,9 @@
 .mainbody.hidden{
     transform: translateX(-5%);
 }
+
+@media (max-width: 600px) {
+    .mainbody.hidden{
+        transform: translateX(-20%);
+    }
+}
