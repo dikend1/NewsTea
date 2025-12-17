@@ -33,7 +33,7 @@ for (let i = 0; i < stories.length; i++) {
 
     let date = document.createElement("div");
     date.className = "stories-meta"
-    date.innerText = stories[i].date + " - " + stories[i].main.length;
+    date.innerText = stories[i].date + " - " + stories[i].main.replaceAll(" ", "").length + " Symbols";
 
     let btn = document.createElement("button");
     btn.className = "stories-btn";
