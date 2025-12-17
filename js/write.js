@@ -40,9 +40,6 @@ function publish() {
     }
 
     localStorage.setItem('stories', JSON.stringify(stories));
-
-    open('main.html', 'main.html');
-    close();
 }
 
 

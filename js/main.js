@@ -2,8 +2,7 @@ let parent = document.getElementById("main-center");
 
 let stories = JSON.parse(localStorage.getItem("stories"));
 
-for (let i = 0; i < stories.length; i++) {
-
+for (let i = 0; i < 4; i++) {
     let href = document.createElement("a");
     href.href = "../html/Card.html?id=" + stories[i].id;
     href.style = "text-decoration: none; color: black;";

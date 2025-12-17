@@ -11,6 +11,12 @@
 
 }
 
+@media(max-width:600px){
+    #footer-socials {
+        display: none;
+    }
+}
+
 .footer-container{
     display: flex;
     justify-content: space-between;
