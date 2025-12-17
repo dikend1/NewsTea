@@ -58,7 +58,7 @@ function createLibrary() {
       <span class="list-author">Dias Maksatov</span>
       <h2 class="list-title">${title}</h2>
       <p class="list-description" style="padding-bottom: 5px;">${descInput.value.trim()}</p>
-      <span class="list-meta">${month} ${day} · 5 min read</span>
+      <span class="list-meta">${month} ${day}</span>
     </div>
   `;
 
